@@ -1,0 +1,31 @@
+.addTransactionForm {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.addTransactionForm input,
+.addTransactionForm select {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  flex: 1;
+  min-width: 120px;
+}
+
+.addTransactionForm button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #1cbf5c;
+  color: white;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.addTransactionForm button:hover {
+  background-color: #17a148;
+}

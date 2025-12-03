@@ -1,0 +1,74 @@
+.lobby {
+  margin-top: 20px;
+}
+
+.transactions-list {
+  margin-top: 15px;
+}
+
+.transaction-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 8px;
+  background: #fff;
+  border-left: 4px solid;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.transaction-item.income {
+  border-left-color: #2ecc71;
+}
+
+.transaction-item.expense {
+  border-left-color: #e74c3c;
+}
+
+.transaction-info {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-weight: bold;
+  flex: 1;
+}
+
+.date {
+  color: #666;
+  margin: 0 15px;
+}
+
+.amount.income {
+  color: #2ecc71;
+  font-weight: bold;
+}
+
+.amount.expense {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.delete-btn {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-left: 15px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s;
+}
+
+.delete-btn:hover {
+  background: #c0392b;
+}
